@@ -1,0 +1,90 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body and HTML */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: rgb(37, 37, 45);
+}
+
+.overall-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(50, 50, 50);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Search container */
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Search input */
+#handleInput {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    width: 300px; /* Adjust width as needed */
+}
+
+/* Search button */
+#searchButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
+
+.container {
+  
+    width: 700px;
+}
+
+#rating {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#rating div {
+    background-color: rgb(254, 252, 252);
+    border-radius: 15px;
+    font-weight: bold;
+   
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rating div:hover{
+    cursor: pointer;
+    background-color: orange;
+    scale: 1.05;
+    transition-duration: 500ms;
+}
